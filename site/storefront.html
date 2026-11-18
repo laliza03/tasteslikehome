@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="./language-init.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#F2E8DA">
+  <meta name="description" content="Meet TastesLikeHome. A little sweet, a lot of home. Explore Algerian sweets, American-style cookies, and beautiful treats for your events.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta property="og:title" content="TastesLikeHome | A little sweet. A lot of home.">
+  <meta property="og:description" content="Homemade bakes for everyday little joys. Discover the TastesLikeHome sample menu.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://butter-crumb-bakery-liza.lirose653.chatgpt.site/assets/hero.webp">
+  <title>TastesLikeHome | Homemade Bakes</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="./assets/hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="./assets/fonts/dm-sans.css">
+  <link rel="stylesheet" href="./assets/fonts/cormorant-garamond.css">
+  <link rel="stylesheet" href="./assets/fonts/noto-sans-arabic.css">
+  <link rel="stylesheet" href="./assets/fonts/noto-naskh-arabic.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./shop-config.js" defer></script>
+  <script src="./translations.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main"><span data-i18n="skip">Skip to content</span></a>
+  <div class="announcement"><div class="announcement-inner"><p><span data-i18n="announce">Something sweet is coming.</span> <a href="#menu"><span data-i18n="previewMenu">Preview the menu</span> <span aria-hidden="true">↗</span></a></p><div class="language-control"><label for="language-switcher" class="sr-only" data-i18n="language">Language</label><select id="language-switcher" name="language"><option value="fr" lang="fr">Français</option><option value="en" lang="en">English</option><option value="ar" lang="ar">العربية</option></select></div></div></div>
+  <header class="header">
+    <a class="wordmark" href="#" aria-label="TastesLikeHome home" data-i18n-aria="home"><i class="icon logo-icon" data-icon="cookie" aria-hidden="true"></i><bdi dir="ltr">TastesLikeHome<span class="wordmark-period">.</span></bdi></a>
+    <nav class="desktop-nav" aria-label="Main navigation" data-i18n-aria="mainNav">
+      <a href="#menu"><span data-i18n="menuLink">Shop the bakes</span></a><a href="#our-story"><span data-i18n="storyLink">Our little kitchen</span></a><a href="#questions"><span data-i18n="faqLink">Good to know</span></a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-button theme-toggle" aria-label="Switch color theme" data-i18n-aria="theme" title="Switch color theme" data-i18n-title="theme"><i class="icon" data-icon="moon" aria-hidden="true"></i></button>
+      <button class="bag-button" data-open-bag aria-label="Open bag, 0 items"><i class="icon" data-icon="bag" aria-hidden="true"></i><span class="bag-label"><span data-i18n="box">Your box</span></span><span class="bag-count">0</span></button>
+      <button class="icon-button mobile-menu-button" aria-label="Open navigation" data-i18n-aria="openNav" aria-expanded="false" aria-controls="mobile-menu"><i class="icon" data-icon="list" aria-hidden="true"></i></button>
+    </div>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" data-i18n-aria="mobileNav" hidden><a href="#menu"><span data-i18n="menuLink">Shop the bakes</span></a><a href="#our-story"><span data-i18n="storyLink">Our little kitchen</span></a><a href="#questions"><span data-i18n="faqLink">Good to know</span></a></nav>
+  <main id="main">
+    <section class="hero section-wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span data-i18n="heroEyebrow">Little treats. Homemade happiness.</span></p>
+        <h1 id="hero-title"><span data-i18n-html="heroTitle">A little sweet.<br>A lot of home.</span></h1>
+        <p class="hero-description"><span data-i18n="heroBody">Algerian sweets, American-style cookies, and custom event treats. Homemade for your gatherings, gifts, and everyday cravings.</span></p>
+        <a class="button button-blue" href="#menu"><span data-i18n="menuLink">Shop the bakes</span><i class="icon" data-icon="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+      <figure class="hero-photo"><img src="./assets/hero.webp" width="1536" height="1024" alt="An assortment of flower-shaped Algerian biscuits and almond-and-jam sablés on a pale blue platter" data-i18n-alt="heroAlt" fetchpriority="high"></figure>
+    </section>
+    <div class="little-note section-wrap"><span class="note-line"></span><p><span data-i18n="note">For the tea breaks, the just-becauses, and the last cookie in the box.</span></p><span class="note-line"></span></div>
+    <section class="menu section-wrap" id="menu" aria-labelledby="menu-title">
+      <div class="menu-heading"><h2 id="menu-title"><span data-i18n="menuTitle">Happiness, by the box.</span></h2><p><span data-i18n="menuBody">Algerian favourites, American classics, and something lovely for your next celebration.</span></p></div>
+      <div class="menu-toolbar"><div class="filters" role="group" aria-label="Filter the sample menu" data-i18n-aria="filterMenu"><button class="filter active" data-filter="all" aria-pressed="true"><span data-i18n="all">All bakes</span></button><button class="filter" data-filter="algerian" aria-pressed="false"><span data-i18n="algerian">Algerian sweets</span></button><button class="filter" data-filter="american" aria-pressed="false"><span data-i18n="american">American classics</span></button><button class="filter" data-filter="events" aria-pressed="false"><span data-i18n="events">Events & gifts</span></button></div><span class="sample-label"><span data-i18n="sampleLabel">Sample menu & prices</span></span></div>
+      <div class="product-grid" id="products" aria-live="polite"></div>
+      <p class="menu-disclaimer"><span data-i18n="menuDisclaimer">A little preview of what could be baking. Products, prices, and food photos are illustrative; the final menu is coming soon.</span></p>
+    </section>
+    <section class="kitchen-updates section-wrap" id="kitchen-updates" aria-labelledby="kitchen-title" hidden><div class="menu-heading"><h2 id="kitchen-title" data-i18n="journalTitle">Fresh from our kitchen.</h2><p data-i18n="journalBody">New bakes, little celebrations, and stories worth sharing.</p></div><div class="kitchen-posts" id="kitchen-posts"></div></section>
+    <section class="story section-wrap" id="our-story" aria-labelledby="story-title">
+      <div class="story-image"><img src="./assets/flowers.webp" alt="Delicate flower-shaped Algerian biscuits with sugar pearl centres and nut-coated edges" data-i18n-alt="storyAlt" width="1254" height="1254" loading="lazy"></div>
+      <div class="story-copy"><i class="icon story-icon" data-icon="heart" aria-hidden="true"></i><h2 id="story-title"><span data-i18n-html="storyTitle">Rooted in home.<br>Made to celebrate.</span></h2><p><span data-i18n="storyOne">Delicate Algerian biscuits. Generous American-style cookies. Sweet little details that make a gathering feel special.</span></p><p><span data-i18n="storyTwo">From a tea-time box to a table full of celebration, TastesLikeHome brings homemade favourites together. A little tradition, a little chocolate, and plenty to share.</span></p><a class="text-link" href="#how-to-order"><span data-i18n="howLink">How to order</span><i class="icon" data-icon="arrow-right" aria-hidden="true"></i></a></div>
+    </section>
+    <section class="order-section section-wrap" id="how-to-order" aria-labelledby="order-title">
+      <div class="order-heading"><h2 id="order-title"><span data-i18n="orderTitle">From our kitchen to your happy place.</span></h2><p><span data-i18n="orderBody">A simple little way to get something sweet.</span></p></div>
+      <ol class="order-steps"><li><span class="step-number">1</span><div><h3><span data-i18n="step1Title">Pick your favourites</span></h3><p><span data-i18n="step1Body">Explore the menu and add a box or two to your bag.</span></p></div></li><li><span class="step-number">2</span><div><h3><span data-i18n="step2Title">Send a little hello</span></h3><p><span data-i18n="step2Body">Share your order request by message. We'll confirm the details together.</span></p></div></li><li><span class="step-number">3</span><div><h3><span data-i18n="step3Title">Make room for a treat</span></h3><p><span data-i18n="step3Body">Arrange pickup and payment, then enjoy something homemade.</span></p></div></li></ol>
+      <p class="order-status"><i class="icon" data-icon="gift" aria-hidden="true"></i><span data-i18n="orderStatus">We're getting the kitchen ready. Ordering and pickup details will be announced here.</span></p>
+    </section>
+    <section class="gifting section-wrap" aria-labelledby="gifting-title"><div><i class="icon gift-icon" data-icon="gift" aria-hidden="true"></i><h2 id="gifting-title"><span data-i18n-html="giftTitle">A thank-you.<br>A celebration.<br>A box just for you.</span></h2></div><div class="gifting-copy"><p><span data-i18n-html="giftOne">Some things are better shared.<br>Homemade treats are one of them.</span></p><p><span data-i18n="giftTwo">Weddings, birthdays, showers, and family gatherings. Plan an Algerian cookie assortment, American-style treats, or decorated cookies made for your occasion.</span></p><button class="text-link" data-open-custom><span data-i18n="plan">Plan something sweet</span><i class="icon" data-icon="arrow-up-right" aria-hidden="true"></i></button></div></section>
+    <section class="faq section-wrap" id="questions" aria-labelledby="faq-title"><div class="faq-heading"><h2 id="faq-title"><span data-i18n="faqTitle">Before your first bite.</span></h2><p><span data-i18n="faqBody">A few things you might be wondering.</span></p></div><div class="faq-list">
+      <details><summary><span data-i18n="faq1Q">How will I place an order?</span><i class="icon" data-icon="plus" aria-hidden="true"></i></summary><p><span data-i18n="faq1A">When ordering opens, choose your treats, add them to your box, and send your order request by message. Availability, pickup, and payment will be confirmed directly. For now, you can explore the sample menu and try the bag.</span></p></details>
+      <details><summary><span data-i18n="faq2Q">Where can I pick up my order?</span><i class="icon" data-icon="plus" aria-hidden="true"></i></summary><p><span data-i18n="faq2A">Pickup location, available days, and preparation times are being finalized. The confirmed details will be added here before ordering opens.</span></p></details>
+      <details><summary><span data-i18n="faq3Q">What about allergies and ingredients?</span><i class="icon" data-icon="plus" aria-hidden="true"></i></summary><p><span data-i18n="faq3A">These sample bakes may contain wheat, milk, eggs, soy, and nuts. Final ingredient and allergen information will be confirmed for each product. Please check directly before ordering if you have an allergy; no allergen-free options are currently promised.</span></p></details>
+      <details><summary><span data-i18n="faq4Q">Can I order for a gift or a special occasion?</span><i class="icon" data-icon="plus" aria-hidden="true"></i></summary><p><span data-i18n="faq4A">Yes, you can prepare an enquiry for a gift, gathering, or special batch using “Plan something sweet.” Final options, quantities, pricing, and availability will be confirmed when the shop opens.</span></p></details>
+    </div></section>
+  </main>
+  <footer class="footer section-wrap"><div class="footer-top"><a class="wordmark" href="#"><i class="icon logo-icon" data-icon="cookie" aria-hidden="true"></i><bdi dir="ltr">TastesLikeHome<span class="wordmark-period">.</span></bdi></a><p><span data-i18n="footerTag">A little sweet. A lot of home.</span></p><a class="text-link" href="#menu"><span data-i18n="menuLink">Shop the bakes</span><i class="icon" data-icon="arrow-up-right" aria-hidden="true"></i></a></div><div class="footer-bottom"><p>© <span id="year">2026</span> TastesLikeHome</p><p><span data-i18n="footerNote">Homemade bakes. Everyday little joys.</span></p><button class="text-link footer-social" data-open-social><i class="icon" data-icon="instagram-logo" aria-hidden="true"></i><span data-i18n="instagram">Instagram</span></button></div><a class="admin-entry-link" href="/admin" data-i18n="manageShop">Manage shop</a></footer>
+  <dialog class="bag-dialog" id="bag-dialog" aria-labelledby="bag-title"><div class="bag-shell"><div class="dialog-heading"><div><p class="eyebrow"><span data-i18n="boxEyebrow">A little box of happiness</span></p><h2 id="bag-title"><span data-i18n="box">Your box</span><span class="dialog-count">0</span></h2></div><button class="icon-button" data-close-dialog aria-label="Close bag" data-i18n-aria="closeBag"><i class="icon" data-icon="x" aria-hidden="true"></i></button></div><div id="bag-content" class="bag-content"></div><div id="bag-footer" class="bag-footer"></div></div></dialog>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-title"><button class="icon-button modal-close" data-close-dialog aria-label="Close product details" data-i18n-aria="closeProduct"><i class="icon" data-icon="x" aria-hidden="true"></i></button><div id="product-detail"></div></dialog>
+  <dialog class="message-dialog" id="message-dialog" aria-labelledby="message-title"><div class="dialog-heading"><h2 id="message-title"><span data-i18n="messageTitle">A sweet little note.</span></h2><button class="icon-button" data-close-dialog aria-label="Close message" data-i18n-aria="closeMessage"><i class="icon" data-icon="x" aria-hidden="true"></i></button></div><div id="message-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

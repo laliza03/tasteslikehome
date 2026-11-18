@@ -1,0 +1,257 @@
+{
+  "revision": 0,
+  "items": [
+    {
+      "id": "flowers",
+      "category": "algerian",
+      "units": 12,
+      "price": 30,
+      "image": "flowers.webp",
+      "allergens": "allergensNuts",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/flowers.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "Biscuits fleurs algériens",
+          "description": "De délicates petites fleurs pour une jolie table.",
+          "detail": "Un exemple d’assortiment de biscuits algériens en forme de fleurs : pétales délicats, perle au centre et bordure de fruits à coque. À savourer avec un thé ou sur une table de fête.",
+          "alt": "Biscuits algériens en forme de fleurs, avec perles en sucre et bordure de fruits à coque",
+          "allergens": "Cet exemple de recette peut contenir du blé, du lait, des œufs, des amandes, des pistaches et d’autres fruits à coque. Faites confirmer les ingrédients et allergènes avant de commander."
+        },
+        "en": {
+          "name": "Algerian flower biscuits",
+          "description": "Delicate little flowers, made for a beautiful table.",
+          "detail": "A sample selection of flower-shaped Algerian biscuits with delicate petals, a pearl centre, and a nut-coated edge. Lovely with tea or as part of a celebration spread.",
+          "alt": "Flower-shaped Algerian biscuits with sugar pearl centres and nut-coated edges",
+          "allergens": "Illustrative recipe may contain wheat, milk, eggs, almonds, pistachios, and other nuts. Confirm final ingredients and allergens before ordering."
+        },
+        "ar": {
+          "name": "بسكويت الزهور الجزائري",
+          "description": "زهور رقيقة لتزيين مائدتكم الحلوة.",
+          "detail": "مثال لتشكيلة من البسكويت الجزائري على شكل زهور ببتلات رقيقة ولؤلؤة في الوسط وحواف مغطّاة بالمكسّرات. جميل مع الشاي أو على مائدة الاحتفال.",
+          "alt": "بسكويت جزائري على شكل زهور، مع لآلئ من السكر وحواف مغطّاة بالمكسّرات",
+          "allergens": "قد يحتوي مثال الوصفة على القمح والحليب والبيض واللوز والفستق ومكسّرات أخرى. يرجى تأكيد المكوّنات ومسبّبات الحساسية قبل الطلب."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    },
+    {
+      "id": "sables",
+      "category": "algerian",
+      "units": 12,
+      "price": 28,
+      "image": "sables.webp",
+      "allergens": "allergensNuts",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/sables.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "Sablés amandes et confiture",
+          "description": "Des biscuits dorés, un cœur fruité et une jolie finition.",
+          "detail": "Un exemple d’assortiment de sablés festonnés à la confiture, garnis d’amandes ou de pistaches. Une jolie attention à offrir ou à partager autour d’un thé.",
+          "alt": "Sablés algériens à la confiture, ornés de pétales d’amandes et de pistaches",
+          "allergens": "Cet exemple de recette peut contenir du blé, du lait, des œufs, des amandes, des pistaches et d’autres fruits à coque. Faites confirmer les ingrédients et allergènes avant de commander."
+        },
+        "en": {
+          "name": "Almond & jam sablés",
+          "description": "Golden biscuits, fruity centres, a pretty finishing touch.",
+          "detail": "A sample assortment of delicate scalloped biscuits with jam centres and almond or pistachio finishes. A lovely addition to tea trays, gifts, and gatherings.",
+          "alt": "Scalloped Algerian jam biscuits with sliced almond petals and pistachio edges",
+          "allergens": "Illustrative recipe may contain wheat, milk, eggs, almonds, pistachios, and other nuts. Confirm final ingredients and allergens before ordering."
+        },
+        "ar": {
+          "name": "صابلي باللوز والمربّى",
+          "description": "بسكويت ذهبي بقلب فاكهي ولمسة جميلة.",
+          "detail": "مثال لتشكيلة من الصابلي المزخرف بالمربّى واللوز أو الفستق. لمسة جميلة لصواني الشاي والهدايا واللّمات.",
+          "alt": "صابلي جزائري بالمربّى مزيّن بشرائح اللوز وحواف الفستق",
+          "allergens": "قد يحتوي مثال الوصفة على القمح والحليب والبيض واللوز والفستق ومكسّرات أخرى. يرجى تأكيد المكوّنات ومسبّبات الحساسية قبل الطلب."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    },
+    {
+      "id": "chocolate",
+      "category": "american",
+      "units": 6,
+      "price": 18,
+      "image": "chocolate.webp",
+      "allergens": "allergensGeneral",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/chocolate.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "Cookies aux éclats de chocolat",
+          "description": "De généreux morceaux de chocolat et un cœur moelleux.",
+          "detail": "Un exemple de boîte de généreux cookies américains aux éclats de chocolat. À partager, à offrir ou à ajouter à une table de fête.",
+          "alt": "Cookies américains dorés aux éclats de chocolat sur une assiette bleu pâle",
+          "allergens": "Cet exemple de recette peut contenir du blé, du lait, des œufs et du soja, avec un risque de contact avec des fruits à coque. Faites confirmer les ingrédients et allergènes avant de commander."
+        },
+        "en": {
+          "name": "Chocolate chunk cookies",
+          "description": "Generous chocolate chunks. A soft-centred classic.",
+          "detail": "A sample box of generous American-style chocolate chunk cookies. An everyday favourite for sharing, gifting, or adding chocolate to a celebration table.",
+          "alt": "Golden American-style chocolate chunk cookies on a pale blue plate",
+          "allergens": "Illustrative recipe may contain wheat, milk, eggs, and soy, with possible nut cross-contact. Confirm final ingredients and allergens before ordering."
+        },
+        "ar": {
+          "name": "كوكيز بقطع الشوكولاتة",
+          "description": "قطع شوكولاتة سخية وقلب طريّ ولذيذ.",
+          "detail": "مثال لعلبة من الكوكيز الأمريكي الغني بقطع الشوكولاتة. للمشاركة أو الإهداء أو لإضافة لمسة شوكولاتة إلى مائدة الاحتفال.",
+          "alt": "كوكيز أمريكي ذهبي بقطع الشوكولاتة على طبق أزرق فاتح",
+          "allergens": "قد يحتوي مثال الوصفة على القمح والحليب والبيض والصويا، مع احتمال ملامسة المكسّرات. يرجى تأكيد المكوّنات ومسبّبات الحساسية قبل الطلب."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    },
+    {
+      "id": "brownies",
+      "category": "american",
+      "units": 4,
+      "price": 20,
+      "image": "brownies.webp",
+      "allergens": "allergensGeneral",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/brownies.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "Brownies fondants au chocolat",
+          "description": "Un cœur fondant, du chocolat intense et une fine croûte.",
+          "detail": "Un exemple de boîte de brownies au chocolat, coupés en carrés généreux. Pour compléter un buffet de desserts ou faire plaisir à un amateur de chocolat.",
+          "alt": "Brownies épais au chocolat, au dessus craquelé, sur du papier crème",
+          "allergens": "Cet exemple de recette peut contenir du blé, du lait, des œufs et du soja, avec un risque de contact avec des fruits à coque. Faites confirmer les ingrédients et allergènes avant de commander."
+        },
+        "en": {
+          "name": "Chocolate fudge brownies",
+          "description": "Rich chocolate, fudgy middles, and crackly tops.",
+          "detail": "A sample box of chocolate brownies, cut into generous squares. Mix them into a dessert spread or choose a little box for a chocolate lover.",
+          "alt": "Thick chocolate fudge brownies with crackly tops on cream parchment",
+          "allergens": "Illustrative recipe may contain wheat, milk, eggs, and soy, with possible nut cross-contact. Confirm final ingredients and allergens before ordering."
+        },
+        "ar": {
+          "name": "براونيز الشوكولاتة الغنيّة",
+          "description": "شوكولاتة غنيّة وقلب طريّ وقشرة رقيقة.",
+          "detail": "مثال لعلبة براونيز بالشوكولاتة مقطّعة إلى مربّعات سخية. أضيفوها إلى مائدة الحلويات أو اختاروها هدية لمحبّي الشوكولاتة.",
+          "alt": "قطع براونيز سميكة بالشوكولاتة ذات سطح متشقّق على ورق بلون كريمي",
+          "allergens": "قد يحتوي مثال الوصفة على القمح والحليب والبيض والصويا، مع احتمال ملامسة المكسّرات. يرجى تأكيد المكوّنات ومسبّبات الحساسية قبل الطلب."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    },
+    {
+      "id": "assortment",
+      "category": "events",
+      "units": 24,
+      "price": 54,
+      "image": "hero.webp",
+      "allergens": "allergensNuts",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/hero.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "L’assortiment de fête",
+          "description": "Une jolie sélection pour vos grands moments ensemble.",
+          "detail": "Un exemple de boîte de fête réunissant biscuits fleurs et sablés à la confiture. La sélection définitive, les quantités et les besoins de votre événement seront confirmés par message.",
+          "alt": "Un généreux assortiment de biscuits algériens délicats dans des caissettes blanches",
+          "allergens": "Cet exemple de recette peut contenir du blé, du lait, des œufs, des amandes, des pistaches et d’autres fruits à coque. Faites confirmer les ingrédients et allergènes avant de commander."
+        },
+        "en": {
+          "name": "The celebration assortment",
+          "description": "A little selection for your biggest shared moments.",
+          "detail": "A sample celebration box bringing together flower-shaped biscuits and jam-centred sablés. The final selection, quantities, and event requirements will be confirmed by message.",
+          "alt": "An abundant assortment of delicate Algerian cookies in white paper cups",
+          "allergens": "Illustrative recipe may contain wheat, milk, eggs, almonds, pistachios, and other nuts. Confirm final ingredients and allergens before ordering."
+        },
+        "ar": {
+          "name": "تشكيلة الاحتفال",
+          "description": "اختيارات صغيرة لأجمل لحظاتكم معاً.",
+          "detail": "مثال لعلبة احتفال تجمع بسكويت الزهور والصابلي بالمربّى. نؤكد التشكيلة النهائية والكميات واحتياجات المناسبة برسالة.",
+          "alt": "تشكيلة سخية من البسكويت الجزائري الرقيق في قوالب ورقية بيضاء",
+          "allergens": "قد يحتوي مثال الوصفة على القمح والحليب والبيض واللوز والفستق ومكسّرات أخرى. يرجى تأكيد المكوّنات ومسبّبات الحساسية قبل الطلب."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    },
+    {
+      "id": "custom",
+      "category": "events",
+      "units": null,
+      "price": null,
+      "image": "events.webp",
+      "allergens": "allergensCustom",
+      "type": "product",
+      "status": "published",
+      "sample": true,
+      "images": [
+        "/assets/events.webp"
+      ],
+      "translations": {
+        "fr": {
+          "name": "Votre fête en biscuits",
+          "description": "De jolis biscuits décorés pour une fête qui vous ressemble.",
+          "detail": "Préparez une demande de biscuits décorés pour un anniversaire, une fête prénatale, un mariage ou une autre occasion. Les couleurs, motifs, quantités, prix et disponibilités seront confirmés ensemble. Les photos sont illustratives.",
+          "alt": "Biscuits décorés crème et bleu pâle dans une boîte cadeau ouverte",
+          "allergens": "Les recettes et décorations varient selon la commande. Renseignez-vous sur les ingrédients et allergènes lors de la préparation de votre événement."
+        },
+        "en": {
+          "name": "Your occasion, in cookies",
+          "description": "Pretty decorated treats for a very personal celebration.",
+          "detail": "Prepare an enquiry for decorated cookies to match a birthday, shower, wedding, or other gathering. Colours, designs, quantities, prices, and availability are confirmed individually. Photos are illustrative.",
+          "alt": "Cream and baby blue decorated sugar cookies in an open celebration gift box",
+          "allergens": "Recipes and decorations vary by order. Ask about ingredients and allergens when discussing your event."
+        },
+        "ar": {
+          "name": "مناسبتكم في بسكويت",
+          "description": "حلويات مزيّنة لاحتفال يشبهكم.",
+          "detail": "حضّروا استفساراً عن بسكويت مزيّن لعيد ميلاد أو احتفال بمولود أو زفاف أو مناسبة أخرى. نؤكد الألوان والتصاميم والكميات والأسعار والتوفّر بشكل فردي. الصور توضيحية.",
+          "alt": "بسكويت مزيّن بالكريمي والأزرق الفاتح في علبة هدايا مفتوحة",
+          "allergens": "تختلف الوصفات والزينة حسب الطلب. اسألوا عن المكوّنات ومسبّبات الحساسية عند مناقشة مناسبتكم."
+        }
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "publishedAt": null
+    }
+  ],
+  "settings": {
+    "currency": "CAD",
+    "instagramHandle": "",
+    "orderEmail": "",
+    "acceptingOrders": false,
+    "showSamples": true,
+    "pickup": {
+      "fr": "",
+      "en": "",
+      "ar": ""
+    }
+  }
+}
